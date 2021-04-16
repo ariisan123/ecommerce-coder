@@ -1,0 +1,14 @@
+.nav-links-container,
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-links {
+  margin-left: 0.6rem;
+  padding: 0.3rem 0.6rem;
+  font-size: 1.2rem;
+  background-color: beige;
+  cursor: pointer;
+}

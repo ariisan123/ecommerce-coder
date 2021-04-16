@@ -1,0 +1,11 @@
+.item-list-container,
+.item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.item-list {
+  font-size: 4rem;
+}
