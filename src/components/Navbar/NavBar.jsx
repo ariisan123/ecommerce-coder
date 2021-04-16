@@ -5,11 +5,13 @@ import Logo from '../Logo/Logo';
 
 const NavBar = () => {
   return (
-    <nav className="navbar">
-      <Logo />
-      <NavLinks />
-      <CartWidget />
-    </nav>
+    <header>
+      <nav className="navbar">
+        <Logo />
+        <NavLinks />
+        <CartWidget />
+      </nav>
+    </header>
   );
 };
 
