@@ -1,12 +1,13 @@
+import React from 'react';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/Navbar/NavBar';
 
 function App() {
   return (
-    <div className="app">
+    <React.Fragment>
       <NavBar />
-      <ItemListContainer greeting="Hola Coders!" />
-    </div>
+      <ItemListContainer />
+    </React.Fragment>
   );
 }
 
