@@ -1,0 +1,18 @@
+@mixin flex($justify: 'center', $direction: 'row') {
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+@mixin btn($color) {
+  @include flex;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba($black, 0.2);
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: $color;
+    cursor: pointer;
+  }
+}
