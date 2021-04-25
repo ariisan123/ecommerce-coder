@@ -1,0 +1,4 @@
+.detail-btn {
+  @include btn($primary-light);
+  background-color: $primary;
+}

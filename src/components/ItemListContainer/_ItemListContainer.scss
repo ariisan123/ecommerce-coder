@@ -1,0 +1,4 @@
+.item-list-container {
+  @include flex;
+  flex-wrap: wrap;
+}

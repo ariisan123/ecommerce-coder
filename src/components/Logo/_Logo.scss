@@ -1,0 +1,8 @@
+.logo-container {
+  @include flex;
+}
+
+.logo {
+  font-size: 1.9rem;
+  color: $white;
+}

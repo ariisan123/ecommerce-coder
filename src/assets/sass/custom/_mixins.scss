@@ -1,4 +1,4 @@
-@mixin flex($justify: 'center', $direction: 'row') {
+@mixin flex($justify: center, $direction: row) {
   display: flex;
   align-items: center;
   justify-content: $justify;
@@ -10,9 +10,11 @@
   padding: 0.3rem 0.7rem;
   border: 1px solid rgba($black, 0.2);
   border-radius: 1rem;
+  transition: all 0.2s ease;
 
   &:hover {
     background-color: $color;
     cursor: pointer;
+    transition: all 0.2s ease;
   }
 }
